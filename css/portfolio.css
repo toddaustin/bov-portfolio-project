@@ -1,0 +1,469 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font: 100% 'Titillium Web', sans-serif;
+    margin: 0;
+  background: #A7A9AC;
+      background-image: -webkit-gradient( linear, left top, right top, color-stop(.34, rgba(230,237,241,.05)), color-stop(.67, rgba(230,237,241,0)));
+      -webkit-background-size: 5px 5px;
+    height: 100%;
+}
+
+header .material-icons {
+    font-size: 36px;
+    color: #2196f3;
+}
+
+header {
+    background-color: #FF5722;
+    background-color: #2196F3;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+header h2 {
+    color: #2196f3;
+    margin: 0;
+    padding: .5rem 1.5rem;
+    background-color: #222;
+}
+
+header #nav, header label{ 
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+
+
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+nav ul {}
+
+
+nav ul li a {
+    padding: .75rem 1.75rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+}
+
+
+nav a:hover, nav a.active {
+    background-color: #fff;
+    color: #888;
+}
+
+.back {
+    position: fixed;
+    bottom: 15px;
+    color: #2196F3;
+    right: 15px;
+    display: block;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    line-height: 1.35;
+    text-decoration: none;
+}
+
+.back:hover {
+    background-color: #2196F3;
+    color: #BBDEFB;
+}
+
+.one,.three{
+    height: 400px;
+    padding: 10px 50px;
+}
+
+.one {
+    background-image: -webkit-gradient( radial, 50% -50, 300, 50% 0, 0, from(rgba(230, 237, 241, 0)), to(rgba(230, 237, 241, 0.8)));
+        height: 100% ;
+        left: 0px;
+        position: relative;
+        border-bottom: 2px solid #777;
+}
+
+.image-one {
+    position: relative;
+    background: url(../images/sedona.jpg) fixed;
+    background-position: top center;
+    background-size: cover;
+    height: 300px;
+}
+
+.three {
+    border-bottom: 2px solid #777;
+}
+
+.image-two, .image-three {
+    background: url(../images/arch.jpg) fixed;
+    background-position: top center;
+    background-size: cover;
+    height: 300px;
+}
+
+.image-three {
+    background: url(../images/generator.jpg) fixed;
+}
+
+.one h2 {
+    font-size: 4rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-shadow: 0px 1px #ccc, 0px -1px #111;
+}
+
+.one p {
+    font-size: 3.265rem;
+    color: #ddd;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 0;
+    font-weight: 300;
+    width: auto;
+}
+
+.two {
+    /*background-color: #555;*/
+}
+
+.three {
+    /*background-color: #666;*/
+}
+
+.four {
+    /*background-color: #777;*/
+}
+
+.four {
+    background-image: none;
+    background-color: #fff;
+
+}
+
+.four label {
+    display: block;
+    height: 375px;
+    color: #fff;
+    margin: 0 auto;
+    perspective: 600px;
+    max-width: 630px;
+    width: 80%;
+
+}
+
+.four input[type=checkbox] {
+    display: none;
+}
+
+.card {
+    height: 375px;
+    padding: 10%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    max-width: 630px;
+    width: 80%;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px 0px rgba(0, 0, 0, .3);
+    height: 375px;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    max-width: 630px;
+    width: 80%;
+}
+
+.front {
+    background: #fff url(http://toddaustin.com/images/mod-dev/cardAssets/bg1.png);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.back {
+    background-color: #fff;
+    background: #fff url(http://toddaustin.com/images/mod-dev/cardAssets/air.jpg);
+    height: 100%;
+    transform: rotateX(180deg);
+    width: 100%;
+    z-index: 2;
+}
+
+.card:hover {
+    transform: rotateX(10deg);
+}
+
+#biz-card:checked + .card {
+    transform: rotateX(180deg);
+}
+
+.four h1 {
+    font-size: 3rem;
+    font-weight: inherit;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.four h1 + p {
+    margin: 0;
+    padding: 0;
+}
+
+.four h1 + p + p {
+    padding-right: 80px;
+}
+
+.four a {
+    color: #f590e5;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.encyclopedia,
+.social {
+    background: url(http://toddaustin.com/images/mod-dev/cardAssets/enc1.png) no-repeat;
+    bottom: 10px;
+    height: 46px;
+    padding-left: 56px;
+    position: absolute;
+    width: 225px;
+}
+
+.social {
+    background: none;
+    right: 0;
+}
+
+.social img {
+    height: 38px;
+    margin-right: 10px;
+    width: 38px;
+}
+
+.flip {
+    opacity: .5;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.nameplate {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    bottom: 10px;
+    color: #915bd5;
+    left: 25px;
+    padding: 5px;
+    position: absolute;
+}
+
+.project-tabs {
+    font: .9rem Arial, helvetica, sans-serif;
+    width: auto;
+}
+
+.project-tabs li input
+{
+    display:none;
+}
+
+.project-tabs label, .project-tabs .content {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.project-tabs .content {
+    display: none;
+}
+
+.project-tabs input[type=checkbox]:checked ~ label {
+    background-color: #fff;
+    border-bottom: 2px solid #0077d6;
+    color: #0077d6;
+    text-shadow:none;
+}
+
+.project-tabs input[type=checkbox]:checked ~ .content {
+    min-height: auto; 
+    display: inline-block;
+    height: 220px;
+}
+
+
+@media (max-width: 640px) {
+    header {
+        flex-flow: column wrap;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+    section {
+        margin-top: 0;
+
+    }
+    .one {
+        height: 300px
+    }
+
+    .one h2 {
+        font-size:2.5rem;
+    }
+
+    .one p {
+        font-size: 1.75rem;
+        font-weight: 600;
+        width: 90%;
+        padding: 0px 0px;
+        margin-left: 0;
+        line-height: 1.275;
+    }
+
+    .four h1 + p + p {
+        padding-right: 0px;
+    }
+
+    .card, .four label {
+        width: 100%;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    nav {
+        display: none;
+        box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.25);
+    }
+
+    #nav:checked ~ nav {
+        display: block; 
+     }
+
+     .close {
+        display: none;
+     }
+
+     #nav:checked ~ .close {
+        display: initial;
+     }
+
+     #nav:checked ~ .menu {
+        display: none;
+     }
+
+
+    nav ul {
+        display: initial;
+    }
+
+
+    .project-tabs ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; 
+    }
+
+    .project-tabs li {
+        margin-top: 1px;
+    }
+
+    .project-tabs .content {
+        overflow:hidden;
+        height: 0px;
+        padding-left: 10px;
+        transition: all .5s ease-in-out;
+        background-color: #fff
+    }
+
+    .project-tabs li ul li {
+        border: none;
+    }
+
+
+
+    .project-tabs h2 {
+        color: #4d172f;
+        font-size: 1.1rem;
+    }
+
+    .project-tabs h3 {
+        font-size: .9rem;
+    }
+
+    .project-tabs li label {
+        color: #fff;
+        font-weight: bold;
+        text-shadow: 0px 1px 1px rgba(45, 121, 181, .5);
+        text-transform: uppercase;
+        background-color: #d95b44;
+        background-color: #2196F3;
+        padding: 10px;
+        display: block;
+    }
+
+    .project-tabs input[type=checkbox]:checked ~ label {
+        background-color: #fff;
+        border-bottom: 2px solid #0077d6;
+        color: #0077d6;
+        text-shadow:none;
+    }
+
+    .project-tabs input[type=checkbox]:checked ~ .content {
+        min-height: auto; 
+        height: 220px;
+    }
+}
+
+
