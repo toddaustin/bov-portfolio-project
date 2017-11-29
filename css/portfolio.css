@@ -117,7 +117,6 @@ nav a:hover, nav a.active {
 .one,.three{
     height: 400px;
     padding: 10px 50px;
-    top: 56px;
 }
 
 .one {
@@ -126,6 +125,7 @@ nav a:hover, nav a.active {
         left: 0px;
         position: relative;
         border-bottom: 2px solid #777;
+    top: 56px;
 }
 
 .image-one {
