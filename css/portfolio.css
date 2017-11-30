@@ -136,9 +136,6 @@ nav a:hover, nav a.active {
     height: 300px;
 }
 
-.three {
-    border-bottom: 2px solid #777;
-}
 
 .image-two, .image-three {
     /*background: url(../images/arch.jpg) fixed;*/
