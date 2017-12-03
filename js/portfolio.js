@@ -1,16 +1,13 @@
-$(document).ready(function(){
-    // var navigation = Array.from(document.querySelectorAll('nav a'));
-    // for (var i = navigation.length - 1; i >= 0; i--) {
-    //     navigation[i].addEventListener('click', function(){
-    //         var currentView = '#' + $(this).attr('class').split(' ')[0];
-    //         $('nav a').removeClass('active');
-    //         $(this).addClass('active');
-    //         $(currentView).scrollintoview({
-    //             duration: 1000,
-    //             direction: "vertical"
-    //         });
-    //     });
-    // }
+function ready(a){"loading"!=document.readyState?a():document.addEventListener("DOMContentLoaded",a)}
+
+ready(function(){
+    var about = document.querySelector('.one');
+    var projects = document.querySelector('.two');
+    var skill = document.querySelector('.three');
+    var contact = document.querySelector('.four');
+
+    var nav = document.querySelectorAll('nav ul li a');
+    console.log(nav);
 });
 
 

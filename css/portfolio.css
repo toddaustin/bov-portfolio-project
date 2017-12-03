@@ -9,19 +9,20 @@ html {
 }
 
 
-html, body {
-   height: 100%;
-   width: 100%;
-   margin: 0;
-   padding: 0;
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font: 100% 'Titillium Web', sans-serif;
     margin: 0;
-  background: #A7A9AC;
-      background-image: -webkit-gradient( linear, left top, right top, color-stop(.34, rgba(230,237,241,.05)), color-stop(.67, rgba(230,237,241,0)));
-      -webkit-background-size: 5px 5px;
+    background: #A7A9AC;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(.34, rgba(230, 237, 241, .05)), color-stop(.67, rgba(230, 237, 241, 0)));
+    -webkit-background-size: 5px 5px;
     height: 100%;
 }
 
@@ -42,8 +43,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
-    box-shadow: 0 1px 11px rgba(0,0,0,0.35);
-    }
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.35);
+}
 
 
 header h2 {
@@ -53,7 +54,8 @@ header h2 {
     background-color: #222;
 }
 
-header #nav, header label{ 
+header #nav,
+header label {
     display: none;
     position: absolute;
     top: 5px;
@@ -63,7 +65,8 @@ header #nav, header label{
 
 
 
-ul, li {
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -92,7 +95,8 @@ nav ul li a {
 }
 
 
-nav a:hover, nav a.active {
+nav a:hover,
+nav a.active {
     background-color: #fff;
     color: #888;
 }
@@ -115,28 +119,29 @@ nav a:hover, nav a.active {
     color: #BBDEFB;
 }
 
-.one,.three{
+.one,
+.three {
     height: 400px;
     padding: 10px 50px;
 }
 
 .one {
     background-image: -webkit-gradient( radial, 50% -50, 300, 50% 0, 0, from(rgba(230, 237, 241, 0)), to(rgba(230, 237, 241, 0.8)));
-    height: 100% ;
+    height: 100%;
     left: 0px;
     position: relative;
     top: 56px;
 }
 
 .image-one {
-    position: relative;  
+    position: relative;
     background-position: top center;
     background-size: cover;
     height: 300px;
 }
 
-
-.image-two, .image-three {
+.image-two,
+.image-three {
     background-position: top center;
     background-size: cover;
     height: 300px;
@@ -160,8 +165,6 @@ nav a:hover, nav a.active {
     width: auto;
 }
 
-
-
 .four label {
     display: block;
     height: 375px;
@@ -170,7 +173,6 @@ nav a:hover, nav a.active {
     perspective: 600px;
     max-width: 630px;
     width: 80%;
-
 }
 
 .four input[type=checkbox] {
@@ -222,7 +224,7 @@ nav a:hover, nav a.active {
     transform: rotateX(10deg);
 }
 
-#biz-card:checked + .card {
+#biz-card:checked+.card {
     transform: rotateX(180deg);
 }
 
@@ -234,12 +236,12 @@ nav a:hover, nav a.active {
     padding: 0;
 }
 
-.four h1 + p {
+.four h1+p {
     margin: 0;
     padding: 0;
 }
 
-.four h1 + p + p {
+.four h1+p+p {
     padding-right: 80px;
 }
 
@@ -292,30 +294,29 @@ nav a:hover, nav a.active {
     width: auto;
 }
 
-.project-tabs li input
-{
-    display:none;
+.project-tabs li input {
+    display: none;
 }
 
-.project-tabs label, .project-tabs .content {
+.project-tabs label,
+.project-tabs .content {
     display: inline-block;
     vertical-align: top;
-
 }
 
 .project-tabs .content {
     display: none;
 }
 
-.project-tabs input[type=checkbox]:checked ~ label {
+.project-tabs input[type=checkbox]:checked~label {
     background-color: #fff;
     border-bottom: 2px solid #0077d6;
     color: #0077d6;
-    text-shadow:none;
+    text-shadow: none;
 }
 
-.project-tabs input[type=checkbox]:checked ~ .content {
-    min-height: auto; 
+.project-tabs input[type=checkbox]:checked~.content {
+    min-height: auto;
     display: inline-block;
     height: 220px;
 }
@@ -326,18 +327,16 @@ nav a:hover, nav a.active {
         flex-flow: column wrap;
         justify-content: space-around;
         width: 100%;
-
     }
     section {
         margin-top: 0;
-
     }
     .one {
         height: 300px
     }
 
     .one h2 {
-        font-size:2.5rem;
+        font-size: 2.5rem;
     }
 
     .one p {
@@ -349,11 +348,12 @@ nav a:hover, nav a.active {
         line-height: 1.275;
     }
 
-    .four h1 + p + p {
+    .four h1+p+p {
         padding-right: 0px;
     }
 
-    .card, .four label {
+    .card,
+    .four label {
         width: 100%;
     }
 
@@ -363,24 +363,24 @@ nav a:hover, nav a.active {
 
     nav {
         display: none;
-        box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.25);
+        box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.25);
     }
 
-    #nav:checked ~ nav {
-        display: block; 
-     }
+    #nav:checked~nav {
+        display: block;
+    }
 
-     .close {
+    .close {
         display: none;
-     }
+    }
 
-     #nav:checked ~ .close {
+    #nav:checked~.close {
         display: initial;
-     }
+    }
 
-     #nav:checked ~ .menu {
+    #nav:checked~.menu {
         display: none;
-     }
+    }
 
 
     nav ul {
@@ -391,7 +391,7 @@ nav a:hover, nav a.active {
     .project-tabs ul {
         list-style: none;
         margin: 0;
-        padding: 0; 
+        padding: 0;
     }
 
     .project-tabs li {
@@ -399,7 +399,7 @@ nav a:hover, nav a.active {
     }
 
     .project-tabs .content {
-        overflow:hidden;
+        overflow: hidden;
         height: 0px;
         padding-left: 10px;
         transition: all .5s ease-in-out;
@@ -432,17 +432,15 @@ nav a:hover, nav a.active {
         display: block;
     }
 
-    .project-tabs input[type=checkbox]:checked ~ label {
+    .project-tabs input[type=checkbox]:checked~label {
         background-color: #fff;
         border-bottom: 2px solid #0077d6;
         color: #0077d6;
-        text-shadow:none;
+        text-shadow: none;
     }
 
-    .project-tabs input[type=checkbox]:checked ~ .content {
-        min-height: auto; 
+    .project-tabs input[type=checkbox]:checked~.content {
+        min-height: auto;
         height: 220px;
     }
 }
-
-
