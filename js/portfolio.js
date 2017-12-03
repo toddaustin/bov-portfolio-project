@@ -7,7 +7,14 @@ ready(function(){
     var contact = document.querySelector('.four');
 
     var nav = document.querySelectorAll('nav ul li a');
-    console.log(nav);
+    
+    for (var i = nav.length - 1; i >= 0; i--) {
+        nav[i].addEventListener("click",function(){
+           currentNav = nav[i].className;
+           console.log(currentNav);
+        });
+    }
+
 });
 
 
