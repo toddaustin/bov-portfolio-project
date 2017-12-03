@@ -10,8 +10,9 @@ ready(function(){
     
     for (var i = nav.length - 1; i >= 0; i--) {
         nav[i].addEventListener("click",function(){
-           currentNav = nav[i].className;
-           console.log(currentNav);
+            console.log(nav[i]);
+           currentNav = this.className;
+           console.log(className);
         });
     }
 
