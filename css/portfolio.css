@@ -321,6 +321,8 @@ nav a.active {
     height: 220px;
 }
 
+.hidden {display: none;}
+
 
 @media (max-width: 640px) {
     header {
