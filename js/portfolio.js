@@ -9,7 +9,7 @@ ready(function(){
     var nav = document.querySelectorAll('nav ul li a');
     
     for (var i = nav.length - 1; i >= 0; i--) {
-        conosole.log(nav[i]);
+        console.log(nav[i]);
         // nav[i].addEventListener("click",function(){
         //     console.log(nav[i]);
         //    currentNav = this.className;
