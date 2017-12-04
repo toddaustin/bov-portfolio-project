@@ -12,8 +12,7 @@ ready(function(){
      
         nav[i].addEventListener("click",function(){
           hideAll();
-
-           if(this.classList.contains('about')){
+           if(this.classList.contains('about')){https://smile.amazon.com/Barbell-Deluxe-Power-Rack-FM-CB8000F/dp/B00I04Z52G/ref=lp_17372558011_1_5?s=sports-and-fitness&ie=UTF8&qid=1512353539&sr=1-5#
                 about.classList.remove('hidden');
                 this.classList.add('active');
            } else if(this.classList.contains('projects')){
