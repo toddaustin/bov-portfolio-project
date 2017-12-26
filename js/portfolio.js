@@ -7,6 +7,8 @@ ready(function(){
     var contact = document.querySelector('.four');
 
      nav = document.querySelectorAll('nav ul li a');
+
+     showProject();
     
     for (var i = nav.length - 1; i >= 0; i--) {
      
@@ -37,4 +39,14 @@ function hideAll() {
         sections[i].classList.add('hidden');
     }
     removeActive();
+}
+
+function showProject() {
+    var projectContainer = document.querySelectorAll('.project-tabs li');
+    var proj = document.querySelectorAll('.proj');
+    for (var i = projectContainer.length - 1; i >= 0; i--) {
+        projectContainer[i].addEventListener("click",function(){    
+        var currentProj = this.className + '-content';
+        currentProj.classList.remove('hidden');
+    }
 }
