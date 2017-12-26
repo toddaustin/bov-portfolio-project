@@ -324,7 +324,25 @@ nav a.active {
 .hidden {display: none;}
 
 .accordion-content {
+    background-color: orange;
+}
+.bizcard-content {
+    background-color: red;
+}
+.calc-content {
     background-color: blue;
+}
+.carousel-content {
+   background-color: yellow;
+}
+.product-content {
+    background-color: green;
+}
+
+.proj {
+    height: 400px;
+    width: 300px;
+
 }
 
 @media (max-width: 640px) {

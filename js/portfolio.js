@@ -43,10 +43,13 @@ function hideAll() {
 
 function showProject() {
     var projectContainer = document.querySelectorAll('.project-tabs li');
+
     var proj = document.querySelectorAll('.proj');
     for (var i = projectContainer.length - 1; i >= 0; i--) {
-        projectContainer[i].addEventListener("click",function(){    
-        var currentProj = this.className + '-content';
-        currentProj.classList.remove('hidden');
+        projectContainer[i].addEventListener("click",function(){ 
+            var curClass = this.className;   
+            var currentProj = document.querySelector('.' + curClass + '-content');
+            currentProj.classList.remove('hidden');
+        });
     }
 }
