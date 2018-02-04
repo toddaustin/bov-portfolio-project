@@ -7,7 +7,7 @@
 		"uuidString": "1B6AA54D-D72C-49F6-B97A-34470F703FFA"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/css\/portfolio-min.css": {
 		"aP": 1,
@@ -676,6 +676,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
