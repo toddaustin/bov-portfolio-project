@@ -101,6 +101,11 @@ nav a.active {
     color: #888;
 }
 
+section {
+    margin-top: 0;
+    padding-top: 60px
+}
+
 .back {
     position: fixed;
     bottom: 15px;
@@ -353,6 +358,7 @@ nav a.active {
     }
     section {
         margin-top: 0;
+        padding-top: 60px
     }
     .one {
         height: 300px
