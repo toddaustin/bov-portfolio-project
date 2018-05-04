@@ -301,7 +301,7 @@ section {
 
 .project-tabs {
     font: .9rem Arial, helvetica, sans-serif;
-    width: 300px;
+    width: 200px;
     display: inline-block;
     vertical-align: top;
     margin-right: -4px;
@@ -309,7 +309,7 @@ section {
 .project-tabs ul li {
     background-color: #37474F;
     color: #fff;
-    padding: 10px 5px;
+    padding: 10px;
     border-bottom: 1px solid #263238;
     border-top: 1px solid #455A64;
     text-transform: uppercase;
@@ -317,10 +317,10 @@ section {
 
 }
 
-.project-tabs ul li:hover {
+.project-tabs ul li:hover, .project-tabs ul li.active-tab {
     background-color: #2196F3;
     color: #fff;
-    padding: 10px 5px;
+    padding: 10px 25px;
 
 
 }
@@ -357,7 +357,7 @@ section {
 
 .accordion-content {
     background-color: orange;
-    
+
 }
 .bizcard-content {
     background-color: red;
