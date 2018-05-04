@@ -170,6 +170,11 @@ section {
     width: auto;
 }
 
+.two {
+    padding-left: 20%;
+}
+
+
 .four label {
     display: block;
     height: 375px;
@@ -296,7 +301,28 @@ section {
 
 .project-tabs {
     font: .9rem Arial, helvetica, sans-serif;
-    width: auto;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+.project-tabs ul li {
+    background-color: #37474F;
+    color: #fff;
+    padding: 10px 5px;
+    border-bottom: 1px solid #263238;
+    border-top: 1px solid #455A64;
+    text-transform: uppercase;
+    list-style-type: none;
+
+}
+
+.project-tabs ul li:hover {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 5px;
+
+
 }
 
 .project-tabs li input {
@@ -324,12 +350,14 @@ section {
     min-height: auto;
     display: inline-block;
     height: 220px;
+
 }
 
-.hidden {display: none;}
+
 
 .accordion-content {
     background-color: orange;
+    
 }
 .bizcard-content {
     background-color: red;
@@ -345,6 +373,8 @@ section {
 }
 
 .proj {
+    display:inline-block;
+    vertical-align: top;
     height: 400px;
     width: 300px;
 
@@ -473,3 +503,5 @@ section {
         height: 220px;
     }
 }
+
+.hidden {display: none;}

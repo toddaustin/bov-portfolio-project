@@ -7,7 +7,7 @@
 		"uuidString": "1B6AA54D-D72C-49F6-B97A-34470F703FFA"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26680",
 "files": {
 	"\/css\/portfolio-min.css": {
 		"aP": 1,
@@ -32,6 +32,7 @@
 	"\/images\/arch.jpg": {
 		"ft": 16384,
 		"iS": 485749,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/arch.jpg",
 		"oF": 0,
@@ -42,6 +43,7 @@
 	"\/images\/generator.jpg": {
 		"ft": 16384,
 		"iS": 197840,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/generator.jpg",
 		"oF": 0,
@@ -52,6 +54,7 @@
 	"\/images\/sedona.jpg": {
 		"ft": 16384,
 		"iS": 2049301,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/sedona.jpg",
 		"oF": 0,
@@ -104,8 +107,9 @@
 "projectAttributes": {
 	"creationDate": 534015991,
 	"displayValue": "bov-portfolio-project",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-karate"
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-karate",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -113,6 +117,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1907,6 +1912,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
