@@ -300,16 +300,17 @@ section {
 }
 
 .project-tabs {
-    font: .9rem Arial, helvetica, sans-serif;
-    width: 200px;
+    font: 1rem Arial, helvetica, sans-serif;
+    width: 250px;
     display: inline-block;
     vertical-align: top;
     margin-right: -4px;
+    margin-left:15%;
 }
 .project-tabs ul li {
     background-color: #37474F;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid #263238;
     border-top: 1px solid #455A64;
     text-transform: uppercase;
@@ -320,7 +321,8 @@ section {
 .project-tabs ul li:hover, .project-tabs ul li.active-tab {
     background-color: #2196F3;
     color: #fff;
-    padding: 10px 25px;
+    padding-left: 25px
+
 }
 
 .project-tabs ul li:first-of-type {
