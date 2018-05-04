@@ -321,8 +321,10 @@ section {
     background-color: #2196F3;
     color: #fff;
     padding: 10px 25px;
+}
 
-
+.project-tabs ul li:first-of-type {
+    border-top: 0px;
 }
 
 .project-tabs li input {
@@ -334,6 +336,8 @@ section {
     display: inline-block;
     vertical-align: top;
 }
+
+
 
 .project-tabs .content {
     display: none;
@@ -356,20 +360,20 @@ section {
 
 
 .accordion-content {
-    background-color: orange;
+    background-color: #2196F3;
 
 }
 .bizcard-content {
-    background-color: red;
+    background-color: #2196F3;
 }
 .calc-content {
-    background-color: blue;
+    background-color:#2196F3;
 }
 .carousel-content {
-   background-color: yellow;
+   background-color: #2196F3;
 }
 .product-content {
-    background-color: green;
+    background-color: #2196F3;
 }
 
 .proj {
